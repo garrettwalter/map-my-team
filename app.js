@@ -14,9 +14,12 @@ const employee = require("./lib/Employee");
 
 // Write code to use inquirer to gather information about the development team members,
 // and to create objects for each team member (using the correct classes as blueprints!)
-const mapMyTeam = new employee();
+const mapMyTeam = new Employee();
 
 mapMyTeam.start();
+
+
+
 // After the user has input all employees desired, call the `render` function (required
 // above) and pass in an array containing all employee objects; the `render` function will
 // generate and return a block of HTML including templated divs for each employee!
